@@ -1,4 +1,4 @@
-class TextShifter:
+class Encryptor:
     def __init__(self, shift):
         self.shift = shift
         self.alphabet_lower = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя"
@@ -25,5 +25,5 @@ input_text = """
  \nМфд, умхарт лдьмшфтёдст ьмшфтр Ъилдфг сд рмсчх ыицяфи.
  """
 change = int(input('Введите число на которое будут смещаться буквы:'))
-shifter = TextShifter(change)  # сдвиг на указанное количество букв
-print(shifter.shift_text("Привет, мир!"))
+shifter = Encryptor(change)  # сдвиг на указанное количество букв
+print(shifter.shift_text(input_text))
