@@ -16,9 +16,6 @@ class Encryptor:
             else:
                 result.append(char)
         return ''.join(result)
-input_text = """
-
-"""
 
 if __name__ == '__main__':
     shift = int(input('Введите число на которое будут смещаться буквы: '))
