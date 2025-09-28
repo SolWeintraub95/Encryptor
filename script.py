@@ -30,10 +30,10 @@
 # print("Изменённый текст:", output_text)
 
 
-# my_file = open("cypher1.txt", "w+")
+# my_file = open("user_output.txt", "w+")
 # my_file.write() = user_input
 # my_file.close()
-# print (my_file.write("cypher1.txt"))
+# print (my_file.write("user_output.txt"))
 
 
 # def shift_text_russian(text, shift):

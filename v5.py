@@ -25,6 +25,6 @@ if __name__ == '__main__':
         input_text = str(input('Введите текст: '))
         print(shifter.shift_text(input_text))
     else:
-        file=open('user_input.txt', 'r', encoding='utf-8')
-        input_text = file.read()
+        with open('user_input.txt', 'r', encoding='utf-8') as file:
+            input_text = file.read()
         print(shifter.shift_text(input_text))
