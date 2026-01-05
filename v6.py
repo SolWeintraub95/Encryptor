@@ -41,6 +41,8 @@ class RandomMappingEncryptor(Encryptor):
             alphabet_set.discard(c)
             self.alphabet_dict[char] = c
 
+        print(self.alphabet_dict)
+
 
 def encrypt_file(encryptor: Encryptor, path: str):
     with open(path, "r") as f:
